@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#Implement Zustand with React JS and Axios to fetch Pokemon data.
+
+#Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
