@@ -1,5 +1,6 @@
 import create from "zustand";
 import axios from "axios";
+import { mountStoreDevtool } from "simple-zustand-devtools";
 
 const useStore = create((set) => ({
   pokemon: [],
@@ -17,5 +18,9 @@ axios
       pokemon,
     }))
   );
+
+  if(process.env.NODE_ENV === 'development'){
+    mountStoreDevtool('Store', useStore);
+  }
 
 export default useStore;

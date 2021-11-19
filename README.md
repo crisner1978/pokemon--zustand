@@ -1,4 +1,4 @@
-#Implement Zustand with React JS and Axios to fetch Pokemon data.
+#Implement Zustand & DevTools with React JS and Axios to fetch Pokemon data.
 
 #Getting Started with Create React App
 

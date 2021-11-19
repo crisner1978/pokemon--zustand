@@ -12,7 +12,7 @@ const PokemonTable = () => {
             p.name.toLowerCase().includes(filter.toLocaleLowerCase())
           )
           .map((p) => (
-            <tr key={p.id}>
+            <tr key={p.name}>
               <td>{p.name}</td>
               <td>{p.url}</td>
             </tr>
